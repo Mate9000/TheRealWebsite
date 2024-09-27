@@ -1,10 +1,153 @@
+body{
+  background-color:#10151A;}
+
+.Pink{
+  color: #FFB4D3;
+  padding: 7px;}
+
+.Goose{
+  color: white;
+  padding: 7px;}
+
+.Title{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Home{
+  color: white;
+  padding: 7px;}
+
+.Learn{
+  color: white;
+  padding: 7px;}
+
+.About{
+  color: white;
+  padding: 7px;}
+
+.Contact{
+  color: white;
+  padding: 7px;}
+
+.Link{
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: Tahoma, sans-serif;
+  margin-top: 20px;}
+
+.Login{
+  color: white;
+  background: #243241;
+  height: 24px;
+  width: 60px;
+  font-size: 13px;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Tahoma, sans-serif;
+  font-weight: lighter;
+  margin-top: 25px;}
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 130px;
+  background-color: #10151A;
+  box-shadow: 0px 10px 8px #10151A;}
+
+.Text{
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  margin-top: 100px;}
+
+.Text1{
+  font-size: 17px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  margin-top: 25px;}
+
+.Text2{
+  font-size: 17px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  margin-top: 25px;}
+
+.GetStarted{
+  background-color: #CEAAFF;
+  color: #10151A;
+  box-shadow: 0 0 10px #f1d180;
+  width: 141px;
+  font-family: Tahoma, sans-serif;
+  padding-left: 2px;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 7px;
+  margin-left: 650px;
+  margin-top: 50px;
+  font-weight: bold;}
+
+.Pijlen{
+  display: flex;
+  flex-direction: row;
+
+  rotate: 90deg;
+  width: 80px;
+  height: 35px;
+  transform: rotateY(60deg);
+  margin-left:660px;
+  margin-top: 100px;
+  border-radius: 7px;
+  padding-left: 25px;}
+
+.Pijl{
+  font-size: 50px;}
+
+.Column{
+  display: flex;
+  flex-direction: column;
+  text-align: center;}
+
+.Tags{
+  background-color:#182632;
+  color:white;
+  border-radius:50px;
+  width:auto;
+  display:inline;
+  font-family: Tahoma, sans-serif;
+  padding:10px;
+  padding-left:20px;
+  padding-right:20px;
+  margin: 5px;}
+
+.Container{
+  width:100%;
+  text-align: center;}
+
+.ContainerTags{
+  width:auto;
+  text-align: center;
+  margin-top:50px;}
+
+.StarContainer{
+  font-size: 20px;
+  margin-left:380px;
+  margin-top:-200px;}
 .btn {
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
-  margin-right: 275px;
+  margin-right: 0px;
 }
 
 .btn-primary {
