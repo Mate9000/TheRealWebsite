@@ -101,23 +101,18 @@ body {
 .GetStarted {
   background-color: #CEAAFF;
   color: #10151A;
-  box-shadow: 0 0 10px #f1d180;
-  width: 141px;
   font-family: Tahoma, sans-serif;
   padding-left: 2px;
   height: 35px;
   text-align: center;
   padding-top: 15px;
   border-radius: 7px;
-  margin-left: 650px;
-  margin-top: 50px;
   font-weight: bold;
 }
 
 .Pijlen {
   display: flex;
   flex-direction: row;
-
   rotate: 90deg;
   width: 80px;
   height: 35px;
@@ -198,7 +193,13 @@ h1 {
   font-size: 50px;
   font-family: Tahoma, sans-serif;
 }
-
+h2 {
+  color: white;
+  margin: 0px;
+  margin-top: 45px;
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+}
 h3 {
   margin: 0px;
   margin-top: 15px;
@@ -213,12 +214,74 @@ h3 {
   width: 140px;
   font-size: 13px;
   border-radius: 7px;
-  text-align: center;
   padding-top: 5px;
   font-family: Tahoma, sans-serif;
   font-weight: lighter;
   margin-top: 25px;
-  margin-left: 575px;
+  margin-left: 565px;
   font-family: Tahoma, sans-serif;
   font-size: 19px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 0px 0px 0px;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid #10151A;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.big-pijltje {
+  align-items: center;
+  margin-top: 50px
+}
+
+.chevron {
+  width: 15px;
+  height: 15px;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  transform: rotate(45deg);
+  margin-left: 650px;
+}
+
+.chevron:first-child {
+  margin-top: 100px;
+  border-color: #8b4a4a;
+}
+
+.chevron:last-child {
+  border-color: #e27d7d;
+}
+.grid-buttons {
+  display: grid;
+  grid-template-areas: 0px 0px 0px;
+  padding: 10px;
+  align-content: center;
+}
+.btn-2 {
+  padding: 0px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0px;
+}
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0px;
+}
+
+button:hover {
+  background-color: #3e8e41;
 }
