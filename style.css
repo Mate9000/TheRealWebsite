@@ -133,7 +133,7 @@ body {
   text-align: center;
 }
 
-.Tags {
+.tags {
   background-color: #182632;
   color: white;
   border-radius: 50px;
@@ -182,7 +182,7 @@ body {
   color: #fff;
 }
 
-.btn:hover {
+.btn :hover {
   opacity: 0.8;
 }
 
@@ -193,6 +193,7 @@ h1 {
   font-size: 50px;
   font-family: Tahoma, sans-serif;
 }
+
 h2 {
   color: white;
   margin: 0px;
@@ -200,6 +201,7 @@ h2 {
   font-size: 40px;
   font-family: Tahoma, sans-serif;
 }
+
 h3 {
   margin: 0px;
   margin-top: 15px;
@@ -258,12 +260,14 @@ h3 {
 .chevron:last-child {
   border-color: #e27d7d;
 }
+
 .grid-buttons {
   display: grid;
   grid-template-areas: 0px 0px 0px;
   padding: 10px;
   align-content: center;
 }
+
 .btn-2 {
   padding: 0px;
   border: none;
@@ -272,16 +276,68 @@ h3 {
   cursor: pointer;
   margin: 0px;
 }
-button {
-  background-color: #4CAF50;
-  color: #ffffff;
-  padding: 0px;
-  border: none;
-  border-radius: 5px;
+
+.container-of-seven-buttons {
+  text-align: center;
+  margin: 0 300px;
+  margin-top: 20px;
+}
+.buttonexample {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.60em;
   cursor: pointer;
-  margin: 0px;
+  color: #ffffff;
 }
 
-button:hover {
-  background-color: #3e8e41;
+.buttonexample.investment {
+  background-color: #182632;
+  color: pink;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample.startup {
+  background-color: #182632;
+  color: #FFC24C;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample.service {
+  background-color: #182632;
+  color: #D387F7;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample.community {
+  background-color: #182632;
+  color: #77E6FF;  
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample.impact {
+  background-color: #182632;
+  color: #23C9DE;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample.defi {
+  background-color: #182632;
+  color: #FF9E9E;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample.more {
+  background-color: #182632;
+  color: #707F8D;
+  font-family: Tahoma, sans-serif;
+}
+
+.row-of-seven-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.connect-the-pictures{
+  margin-top: -33px;
 }
