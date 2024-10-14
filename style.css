@@ -341,3 +341,15 @@ h3 {
 .connect-the-pictures{
   margin-top: -33px;
 }
+.pink {
+  color: white;
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+  color: #37424D;
+}
+.pink:hover{
+  color: pink;
+  cursor: pointer;
+}
