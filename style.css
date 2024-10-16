@@ -1,9 +1,16 @@
 body {
   background-color: #10151A;
 }
-.button{
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
   background-color: #10151A;
 }
+
 .Pink {
   color: white;
   padding: 7px;
@@ -22,26 +29,6 @@ body {
   font-family: Tahoma, sans-serif;
   font-weight: bold;
   margin-top: 20px;
-}
-
-.Home {
-  color: white;
-  padding: 7px;
-}
-
-.Learn {
-  color: white;
-  padding: 7px;
-}
-
-.About {
-  color: white;
-  padding: 7px;
-}
-
-.Contact {
-  color: white;
-  padding: 7px;
 }
 
 .Link {
@@ -290,7 +277,11 @@ h3 {
   margin: 0 300px;
   margin-top: 20px;
 }
-
+.container-of-seven-buttons-for-learn-version{
+  text-align: center;
+  margin: 0 300px;
+  margin-top: 20px;
+}
 .buttonexample {
   padding: 10px 20px;
   border-radius: 20px;
@@ -340,6 +331,62 @@ h3 {
   color: #707F8D;
   font-family: Tahoma, sans-serif;
 }
+.buttonexample-learn {
+  padding: 15px 40px;
+  border-radius: 40px;
+  font-size: 0.60em;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.buttonexample-learn.investment {
+  background-color: #182632;
+  color: pink;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample-learn.startup {
+  background-color: #182632;
+  color: #FFC24C;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample-learn.service {
+  background-color: #182632;
+  color: #D387F7;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample-learn.community {
+  background-color: #182632;
+  color: #77E6FF;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample-learn.impact {
+  background-color: #182632;
+  color: #23C9DE;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample-learn.defi {
+  background-color: #182632;
+  color: #FF9E9E;
+  font-family: Tahoma, sans-serif;
+}
+
+.buttonexample-learn.more {
+  background-color: #182632;
+  color: #707F8D;
+  font-family: Tahoma, sans-serif;
+}
+
+.row-of-seven-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
 
 .row-of-seven-buttons {
   display: flex;
@@ -370,10 +417,12 @@ h3 {
   height: 120px;
   width: auto;
 }
-.empty-space-between-header{
+
+.empty-space-between-header {
   height: 80px;
   width: auto;
 }
+
 .body-of-six-boxes {
   background-color: #10151A;
   font-family: Arial, sans-serif;
@@ -414,6 +463,7 @@ h3 {
 .icon-box span {
   font-size: 14px;
 }
+
 .digest-weekly-body {
   background-color: #10151A;
   display: flex;
@@ -481,6 +531,7 @@ h3 {
 .email-input button:hover {
   background-color: #CEAAFF;
 }
+
 .image-of-five-pictures {
   display: flex;
   flex-direction: row;
@@ -488,4 +539,7 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+.put-the-picture-in-the-middle{
+  align-items: center;
 }
