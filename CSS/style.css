@@ -278,11 +278,13 @@ h3 {
   margin: 0 300px;
   margin-top: 20px;
 }
-.container-of-seven-buttons-for-learn-version{
+
+.container-of-seven-buttons-for-learn-version {
   text-align: center;
   margin: 0 265px;
   margin-top: 20px;
 }
+
 .buttonexample {
   padding: 10px 20px;
   border-radius: 20px;
@@ -332,6 +334,7 @@ h3 {
   color: #707F8D;
   font-family: Tahoma, sans-serif;
 }
+
 .buttonexample-learn {
   padding: 15px 40px;
   border-radius: 40px;
@@ -459,7 +462,7 @@ pink:hover {
   margin-bottom: 10px;
 }
 
-.icon-box span {
+h3 .icon-box span {
   font-size: 14px;
 }
 
@@ -539,9 +542,11 @@ pink:hover {
   align-items: center;
   margin-top: 30px;
 }
-.put-the-picture-in-the-middle{
+
+.put-the-picture-in-the-middle {
   align-items: center;
 }
+
 .body-of-boxes {
   font-family: Arial, sans-serif;
   background-color: #10151A;
@@ -549,9 +554,11 @@ pink:hover {
   margin: 0;
   padding: 0;
 }
+
 .container-of-boxes {
   padding: 20px;
 }
+
 .header-of-boxes {
   display: flex;
   justify-content: space-between;
@@ -559,14 +566,17 @@ pink:hover {
   margin-left: 265px;
   margin-right: 265px;
 }
+
 .header-of-boxes h1 {
   font-size: 2em;
   margin: 0;
 }
+
 .header-of-boxes a {
   color: #8395A7;
   text-decoration: none;
 }
+
 .boxes {
   display: flex;
   justify-content: center;
@@ -574,6 +584,7 @@ pink:hover {
   gap: 20px;
   margin-top: 20px;
 }
+
 .box {
   background-color: #161b22;
   border-radius: 10px;
@@ -581,33 +592,119 @@ pink:hover {
   width: 200px;
   height: 260px;
   color: #c9d1d9;
-  position: relative;
+
 }
+
 .box h3 {
   font-size: 0.6em;
   margin-bottom: 10px;
   color: black;
 }
+
 .box p {
-  font-size: 0.5em;
-  margin-bottom: 40px; 
+  font-size: 0.45em;
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: rgba(0, 0, 0, 0.664);
 }
+
 .box a {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  position: absolute;
   font-size: 0.5em;
-  bottom: 20px;
-  left: 20px;
+  bottom: -20px;
+  right: 75px;
+  position: relative;
 }
+
 .box.decrypt {
   background-color: #77E6FF;
 }
+
 .box.blockworks {
   background-color: #E2C1F9;
 }
+
 .box.techcrunch {
   background-color: #DBE268;
+}
+
+.body-of-podcast {
+  background-color: #10151A;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container-of-podcast {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header-of-podcast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.header-of-podcast h1 {
+  font-size: 2em;
+}
+
+.header-of-podcast a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.podcast-list {
+  display: flex;
+  gap: 20px;
+}
+
+.podcast-item {
+  background-color: #1a1f2b;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 200px;
+}
+
+.podcast-item img {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.podcast-item p {
+  font-size: 0.3em;
+  color: #b0b3b8;
+  margin: 10px;
+}
+
+.podcast-item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.4em;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 0.5em;
+  margin: 0px;
+}
+
+h5 {
+  font-size: 0.5em;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
