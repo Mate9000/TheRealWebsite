@@ -63,6 +63,7 @@ a {
   background-color: #10151A;
   box-shadow: 0px 10px 8px #10151A;
   position: sticky;
+  z-index: 99;
   top: 0;
   width: auto;
   height: 104px;
@@ -391,11 +392,13 @@ h3 {
   font-size: 40px;
   font-family: Tahoma, sans-serif;
   color: #37424D;
+  transition: color 0.3s ease;
 }
 
 pink:hover {
   color: pink;
-  cursor: pointer;
+  cursor: default;
+  transition: color 0.3s ease;
 }
 
 .empty-space {
