@@ -7,6 +7,10 @@ a {
   color: #fff;
 }
 
+p {
+  margin: 0px;
+}
+
 .button {
   background-color: #10151A;
 }
@@ -386,16 +390,16 @@ h3 {
 }
 
 .pink {
-  color: white;
   margin: 0px;
   margin-top: 7px;
   font-size: 40px;
   font-family: Tahoma, sans-serif;
   color: #37424D;
   transition: color 0.3s ease;
+  height: 50px;
 }
 
-pink:hover {
+.pink p:hover {
   color: pink;
   cursor: default;
   transition: color 0.3s ease;
@@ -944,6 +948,7 @@ h6 {
 .post-container ::placeholder {
   color: #3D4C5B;
 }
+
 .post-container button {
   padding: 10px 35px;
   border: none;
@@ -958,7 +963,8 @@ h6 {
 .post-container button:hover {
   background-color: #CEAAFF;
 }
-.empty-space-post{
+
+.empty-space-post {
   width: auto;
   height: 20px;
 }
