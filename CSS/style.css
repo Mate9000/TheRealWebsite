@@ -1,32 +1,34 @@
+/*met dit make ik de achtergrond zwart*/
 body {
   background-color: #10151A;
 }
-
+/*elke keer dat ik a gebruik maak dit zeker dat je geen lijn onderaan krijgt en dat het wit is*/
 a {
   text-decoration: none;
   color: #fff;
 }
-
+/*voor p heb ik alleen de margin weggehaald zodat het niks kan duwen*/
 p {
   margin: 0px;
 }
-
+/*dit is zodat de button van de home,learn,about en contact hetzelfde kleur als de header/achtergrond is*/
 .button {
   background-color: #10151A;
 }
 
-
+/*did is voor de logo en dat ik de kleur van de logo pink wit is*/
 .Pink {
   color: white;
   padding: 7px;
   margin-left: 50px;
 }
-
+/*de tweede helft van de logo die ik rooz maakte*/
 .Goose {
   color: #FFB4D3;
   padding: 7px;
+  margin-right: 200px;
 }
-
+/*dit is voor de logo odat het in de juiste plek staat en de juiste font size heeft*/
 .title {
   display: flex;
   flex-direction: row;
@@ -35,7 +37,7 @@ p {
   font-weight: bold;
   margin-top: 20px;
 }
-
+/*dit maakt zeker dat home en andere drie niet boven naar beneden maar langs elkaar komt*/
 .Link {
   display: flex;
   flex-direction: row;
@@ -43,10 +45,10 @@ p {
   font-family: Tahoma, sans-serif;
   margin-top: 20px;
 }
-
+/*dit is om de hele login button aan te maken*/
 .Login {
   color: white;
-  background: #243241;
+  background-color: #243241;
   height: 24px;
   width: 60px;
   font-size: 13px;
@@ -56,14 +58,14 @@ p {
   font-family: Tahoma, sans-serif;
   font-weight: lighter;
   margin-top: 15px;
+  margin-left: 270px;
   cursor: pointer;
 }
-
-.header {
+/*deze code maakt zeker dat er een grote balk boven aan is waarin de logo home en andere 4 dingen in kan zitten en dit maakt het ook meevolgen met position sticky*/
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: px;
   background-color: #10151A;
   box-shadow: 0px 10px 8px #10151A;
   position: sticky;
@@ -72,28 +74,28 @@ p {
   width: auto;
   height: 104px;
 }
-
+/*aanpassen van grootte*/
 .Text {
   font-size: 40px;
   font-family: Tahoma, sans-serif;
   color: white;
   margin-top: 100px;
 }
-
+/*aanpassen van de tweede text*/
 .Text1 {
   font-size: 17px;
   font-family: Tahoma, sans-serif;
   color: white;
   margin-top: 25px;
 }
-
+/*aanpassen van de derder tekst*/
 .Text2 {
   font-size: 17px;
   font-family: Tahoma, sans-serif;
   color: white;
   margin-top: 25px;
 }
-
+/*een button bij de get started sectie*/
 .GetStarted {
   background-color: #CEAAFF;
   color: #10151A;
@@ -105,13 +107,13 @@ p {
   border-radius: 7px;
   font-weight: bold;
 }
-
+/*hoort bij de header*/
 .column {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-
+/*paar aanpassingen voor de tags sectie*/
 .tags {
   background-color: #182632;
   color: white;
@@ -141,9 +143,9 @@ p {
   margin-left: 380px;
   margin-top: -200px;
 }
-
+/*de button functie gemaakt en de hover ook gegeven hieronder*/
 .btn {
-  padding: 10px 20px;
+  padding: 0px 20px;
   border: none;
   border-radius: 10px;
   font-size: 16px;
@@ -163,7 +165,7 @@ p {
 .btn :hover {
   opacity: 0.8;
 }
-
+/*heel veel hard werk onder goed te denken met deze h elementen dus ze zijn groter of kleiner dan normaal*/
 h1 {
   color: white;
   margin: 0px;
