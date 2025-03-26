@@ -2,15 +2,18 @@
 body {
   background-color: #10151A;
 }
+
 /*elke keer dat ik a gebruik maak dit zeker dat je geen lijn onderaan krijgt en dat het wit is*/
 a {
   text-decoration: none;
   color: #fff;
 }
+
 /*voor p heb ik alleen de margin weggehaald zodat het niks kan duwen*/
 p {
   margin: 0px;
 }
+
 /*dit is zodat de button van de home,learn,about en contact hetzelfde kleur als de header/achtergrond is*/
 .button {
   background-color: #10151A;
@@ -22,12 +25,14 @@ p {
   padding: 7px;
   margin-left: 50px;
 }
+
 /*de tweede helft van de logo die ik rooz maakte*/
 .Goose {
   color: #FFB4D3;
   padding: 7px;
   margin-right: 200px;
 }
+
 /*dit is voor de logo odat het in de juiste plek staat en de juiste font size heeft*/
 .title {
   display: flex;
@@ -37,6 +42,7 @@ p {
   font-weight: bold;
   margin-top: 20px;
 }
+
 /*dit maakt zeker dat home en andere drie niet boven naar beneden maar langs elkaar komt*/
 .Link {
   display: flex;
@@ -45,6 +51,7 @@ p {
   font-family: Tahoma, sans-serif;
   margin-top: 20px;
 }
+
 /*dit is om de hele login button aan te maken*/
 .Login {
   color: white;
@@ -61,6 +68,7 @@ p {
   margin-left: 270px;
   cursor: pointer;
 }
+
 /*deze code maakt zeker dat er een grote balk boven aan is waarin de logo home en andere 4 dingen in kan zitten en dit maakt het ook meevolgen met position sticky*/
 header {
   display: flex;
@@ -74,6 +82,7 @@ header {
   width: auto;
   height: 104px;
 }
+
 /*aanpassen van grootte*/
 .Text {
   font-size: 40px;
@@ -81,6 +90,7 @@ header {
   color: white;
   margin-top: 100px;
 }
+
 /*aanpassen van de tweede text*/
 .Text1 {
   font-size: 17px;
@@ -88,6 +98,7 @@ header {
   color: white;
   margin-top: 25px;
 }
+
 /*aanpassen van de derder tekst*/
 .Text2 {
   font-size: 17px;
@@ -95,6 +106,7 @@ header {
   color: white;
   margin-top: 25px;
 }
+
 /*een button bij de get started sectie*/
 .GetStarted {
   background-color: #CEAAFF;
@@ -107,12 +119,14 @@ header {
   border-radius: 7px;
   font-weight: bold;
 }
+
 /*hoort bij de header*/
 .column {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
 /*paar aanpassingen voor de tags sectie*/
 .tags {
   background-color: #182632;
@@ -143,6 +157,7 @@ header {
   margin-left: 380px;
   margin-top: -200px;
 }
+
 /*de button functie gemaakt en de hover ook gegeven hieronder*/
 .btn {
   padding: 0px 20px;
@@ -165,6 +180,7 @@ header {
 .btn :hover {
   opacity: 0.8;
 }
+
 /*heel veel hard werk onder goed te denken met deze h elementen dus ze zijn groter of kleiner dan normaal*/
 h1 {
   color: white;
@@ -195,6 +211,7 @@ h3 {
   justify-content: center;
   width: 100%;
 }
+
 /*dit is zodat er een paarse button is onder de twee lijn tekst*/
 .get-started {
   color: black;
@@ -210,6 +227,7 @@ h3 {
   font-size: 19px;
   cursor: pointer;
 }
+
 /*een gigantische lichaam voor de multipage plaates en ook voor de buttons en de text*/
 .grid-container {
   display: grid;
@@ -223,6 +241,7 @@ h3 {
   font-size: 30px;
   text-align: center;
 }
+
 /*de chevrons ijn eigenlijk pijltjes die in css zijn gemaakt */
 .chevron {
   width: 20px;
@@ -232,15 +251,18 @@ h3 {
   transform: rotate(45deg);
   margin-left: 650px;
 }
+
 /*deze is meer donker dan de tweede "child" net als het in figma wordt laten zien*/
 .chevron:first-child {
   margin-top: 100px;
   border-color: #8b4a4a;
 }
+
 /*deze is lichter dan de eerste "child"*/
 .chevron:last-child {
   border-color: #e27d7d;
 }
+
 /*deze allemaal met de naam van cotainer of seven buttons is gemaakt zodat ik bij de multipage boven aan de buttons kon maken*/
 .container-of-seven-buttons {
   text-align: center;
@@ -253,6 +275,7 @@ h3 {
   margin: 0 265px;
   margin-top: 20px;
 }
+
 /*dit is de belangrijke ding die een button rond en als de inlog button laat lijken en de  7 buttons die verschillende kleuren heeft is hier onder*/
 .buttonexample {
   padding: 10px 20px;
@@ -303,6 +326,7 @@ h3 {
   color: #707F8D;
   font-family: Tahoma, sans-serif;
 }
+
 /*hetzelfde als de buttonexample maar nu in learn sectie*/
 .buttonexample-learn {
   padding: 15px 40px;
@@ -355,6 +379,7 @@ h3 {
   color: #707F8D;
   font-family: Tahoma, sans-serif;
 }
+
 /*maakt zeker dat de eerste vier boven aan is en de laatste drie onderaan*/
 .row-of-seven-buttons {
   display: flex;
@@ -362,6 +387,7 @@ h3 {
   gap: 20px;
   margin-bottom: 15px;
 }
+
 /*hetzelfde als row-of-seven-buttons*/
 .row-of-seven-buttons-learn {
   display: flex;
@@ -369,6 +395,7 @@ h3 {
   gap: 20px;
   margin-bottom: 15px;
 }
+
 /*dit is de stuk tekst in de website die roos wordt als je hoverd maar met dit is het grijz*/
 .pink {
   margin: 0px;
@@ -379,22 +406,26 @@ h3 {
   transition: color 0.3s ease;
   height: 50px;
 }
+
 /*door dit wordt de tekst rooz als je erboven aan hover dus op te tekst hoverd*/
 .pink p:hover {
   color: pink;
   cursor: default;
   transition: color 0.3s ease;
 }
+
 /*leeg ruimte*/
 .empty-space {
   height: 120px;
   width: auto;
 }
+
 /*leeg ruimte onder de heaader*/
 .empty-space-between-header {
   height: 80px;
   width: auto;
 }
+
 /*de body van de zes dozen van etheruem tot opensea*/
 .body-of-six-boxes {
   background-color: #10151A;
@@ -406,11 +437,13 @@ h3 {
   height: 275px;
   margin: 0;
 }
+
 /*20 px gap zodat ze elkaar niet aanraken*/
 .container-of-six-boxes {
   display: flex;
   gap: 20px;
 }
+
 /*hoe de button uitziet*/
 .icon-box {
   background-color: #121E28;
@@ -425,6 +458,7 @@ h3 {
   align-items: center;
   cursor: pointer;
 }
+
 /*de size dat de plaatjes in de button van de icon-box in is*/
 .icon-box img {
   margin-top: 20px;
@@ -432,10 +466,12 @@ h3 {
   height: 150px;
   margin-bottom: 10px;
 }
+
 /*hoe groot de letters onder de button/icon wordt*/
 h3 .icon-box span {
   font-size: 14px;
 }
+
 /*de achtergrond/buitenste lichaam van digest weekly*/
 .digest-weekly-body {
   background-color: #10151A;
@@ -446,6 +482,7 @@ h3 .icon-box span {
   margin: 1px;
   font-family: Arial, sans-serif;
 }
+
 /*did is om te digest weekly een form te geven net als de icon boen aan maar het werkt niet als een button maar als een soort huisje om een button text en inschiv ding in te zetten*/
 .digest-weekly-container {
   background-color: #121E28;
@@ -457,6 +494,7 @@ h3 .icon-box span {
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 /*de lettersize in de digest-weekly*/
 .digest-weekly-container h1 {
   color: #ffffff;
@@ -464,6 +502,7 @@ h3 .icon-box span {
   margin-top: -80px;
   background-color: #121E28;
 }
+
 /*hoe groot de letter in de roze buton is*/
 .digest-weekly-container p {
   color: #9ca3af;
@@ -472,6 +511,7 @@ h3 .icon-box span {
   margin-bottom: 20px;
   background-color: #121E28;
 }
+
 /*de input ding zodat je kan schrijven*/
 .email-input {
   display: flex;
@@ -489,6 +529,7 @@ h3 .icon-box span {
   width: 250px;
   margin-top: 40px;
 }
+
 /*hoe de button uitziet en werkt is hier*/
 .email-input button {
   padding: 10px 20px;
@@ -504,6 +545,7 @@ h3 .icon-box span {
 .email-input button:hover {
   background-color: #CEAAFF;
 }
+
 /*dit is voor die plaatjes van de mensen*/
 .image-of-five-pictures {
   display: flex;
@@ -517,6 +559,7 @@ h3 .icon-box span {
 .put-the-picture-in-the-middle {
   align-items: center;
 }
+
 /*dit is de plek waar je de 3 gekleurde boxes mee kan krijgen*/
 .body-of-boxes {
   font-family: Arial, sans-serif;
@@ -609,6 +652,7 @@ h3 .icon-box span {
   margin: 0;
   padding: 20px;
 }
+
 /*alles met podcast is hier in gemaakt*/
 .container-of-podcast {
   max-width: 800px;
@@ -667,6 +711,7 @@ h3 .icon-box span {
   margin-top: 10px;
   margin-right: 150px;
 }
+
 /*hier is de andere h elementen die ik in heb gezet*/
 h4 {
   font-size: 1em;
@@ -697,6 +742,7 @@ h5 {
 .connect-the-pictures {
   margin-top: -35px;
 }
+
 /*dit is voor de twee buttons voordat je bij de footer bent dus de oranje en de paarse button*/
 .body-of-two-buttons {
   background-color: #10151A;
@@ -749,12 +795,14 @@ h5 {
   margin-left: 10px;
   font-size: 0.7em;
 }
+
 /*hier is de laatste h element die ik ook heb verandered*/
 h6 {
   font-size: 1.6em;
   margin: 0px;
   margin-bottom: 10px;
 }
+
 /*deze plek is voor de footer sectie zodat er geen empty space onder aan is en ook om te laten zien dat je helemaal onder aan bent*/
 .footer {
   width: auto;
@@ -781,6 +829,7 @@ h6 {
 .footer-links a.legal {
   color: #f0a500;
 }
+
 /*de speciale geklaurde ronde buttons in de footer*/
 .social-icons {
   display: flex;
@@ -795,6 +844,7 @@ h6 {
   height: 40px;
   border-radius: 50%;
 }
+
 /*dit is net als die plaatjes van 5 maar nu is het in een roze layout met een stuk informatie en buttons met ook de plaatjes weer*/
 .body-of-hero {
   background-color: #10151A;
@@ -864,6 +914,7 @@ h6 {
 .pink-card a i {
   margin-left: 5px;
 }
+
 /*de plek waar je de post goose stuurt*/
 .body-of-post {
   background-color: #10151A;
@@ -944,8 +995,11 @@ h6 {
 .post-container button:hover {
   background-color: #CEAAFF;
 }
+
 /*de derde empty space*/
 .empty-space-post {
   width: auto;
   height: 20px;
 }
+
+/*ik heb de map bestand nu kleine */
