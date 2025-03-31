@@ -268,6 +268,7 @@ h3 {
   text-align: center;
   margin: 0 300px;
   margin-top: 20px;
+  margin-bottom: 120px;
 }
 
 .container-of-seven-buttons-for-learn-version {
@@ -420,12 +421,6 @@ h3 {
   width: auto;
 }
 
-/*leeg ruimte onder de heaader*/
-.empty-space-between-header {
-  height: 80px;
-  width: auto;
-}
-
 /*de body van de zes dozen van etheruem tot opensea*/
 .body-of-six-boxes {
   background-color: #10151A;
@@ -436,6 +431,7 @@ h3 {
   align-items: center;
   height: 275px;
   margin: 0;
+  margin-top: 120px;
 }
 
 /*20 px gap zodat ze elkaar niet aanraken*/
@@ -651,6 +647,7 @@ h3 .icon-box span {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+  margin-bottom: 140px;
 }
 
 /*alles met podcast is hier in gemaakt*/
@@ -925,6 +922,7 @@ h6 {
   height: 100vh;
   margin: 0;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .post-container {
@@ -995,11 +993,3 @@ h6 {
 .post-container button:hover {
   background-color: #CEAAFF;
 }
-
-/*de derde empty space*/
-.empty-space-post {
-  width: auto;
-  height: 20px;
-}
-
-/*ik heb de map bestand nu kleine */
