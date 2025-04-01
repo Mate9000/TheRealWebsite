@@ -3,6 +3,24 @@ body {
   background-color: #10151A;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: Tahoma, sans-serif;
+  margin-top: 20px;
+}
+
+li {
+  padding: 0px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 0px;
+}
+
 /*elke keer dat ik a gebruik maak dit zeker dat je geen lijn onderaan krijgt en dat het wit is*/
 a {
   text-decoration: none;
@@ -43,14 +61,6 @@ p {
   margin-top: 20px;
 }
 
-/*dit maakt zeker dat home en andere drie niet boven naar beneden maar langs elkaar komt*/
-.Link {
-  display: flex;
-  flex-direction: row;
-  font-size: 15px;
-  font-family: Tahoma, sans-serif;
-  margin-top: 20px;
-}
 
 /*dit is om de hele login button aan te maken*/
 .Login {
@@ -159,13 +169,6 @@ header {
 }
 
 /*de button functie gemaakt en de hover ook gegeven hieronder*/
-.btn {
-  padding: 0px 20px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  margin-right: 0px;
-}
 
 .btn-primary {
   background-color: rgb(88, 88, 86);
@@ -275,6 +278,7 @@ h3 {
   text-align: center;
   margin: 0 265px;
   margin-top: 20px;
+  margin-bottom: 120px;
 }
 
 /*dit is de belangrijke ding die een button rond en als de inlog button laat lijken en de  7 buttons die verschillende kleuren heeft is hier onder*/
@@ -415,12 +419,6 @@ h3 {
   transition: color 0.3s ease;
 }
 
-/*leeg ruimte*/
-.empty-space {
-  height: 120px;
-  width: auto;
-}
-
 /*de body van de zes dozen van etheruem tot opensea*/
 .body-of-six-boxes {
   background-color: #10151A;
@@ -432,6 +430,7 @@ h3 {
   height: 275px;
   margin: 0;
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 /*20 px gap zodat ze elkaar niet aanraken*/
